@@ -47,6 +47,4 @@ wheels/
 *.egg
 
 # Model files
-*.pkl
-# (User might want to push model.pkl but usually it's excluded if large)
-# model.pkl
+# *.pkl (Uncommented so Render can see the model)
