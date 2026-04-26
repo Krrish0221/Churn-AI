@@ -11,8 +11,8 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Replace this with your actual Render backend URL after deployment
-const BACKEND_URL = "http://localhost:10000";
+// Use environment variable for backend URL, default to localhost for local dev
+const BACKEND_URL = import.meta.env.VITE_API_URL || "http://localhost:10000";
 
 const App = () => {
   const [formData, setFormData] = useState({
