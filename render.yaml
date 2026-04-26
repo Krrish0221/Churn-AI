@@ -1,5 +1,4 @@
 services:
-  # Backend FastAPI Service
   - type: web
     name: churn-backend
     env: python
